@@ -26,9 +26,8 @@ const Header = () => {
             <div className="flex -mt-10 relative">
                 {/* programmer name div */}
                 <div className="w-full px-4 max-w-screen-xl mx-auto">
-                    <h1>Md Abu Sufian Jidan</h1>
                     {/* my name logo */}
-                    <svg width="406" height="368" viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="406" height="368" viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute top-0 left-1/2 -translate-y-1/3 -translate-x-1/2" >
                         <path d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109" stroke="#1F2667" strokeOpacity="0.9" strokeWidth="10" />
                         <path d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109" stroke="url(#paint0_linear)" strokeWidth="10" />
                         <defs>
@@ -38,6 +37,11 @@ const Header = () => {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="relative ml-12">
+                        <h1 className="text-6xl">Md Abu Sufian Jidan</h1>
+                        <p className="text-2xl italic my-5">MERN Stack Developer</p>
+                        <button className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-tl from-[#1595b6] to-[#1f2667e6]">About Me</button>
+                    </div>
                 </div>
                 {/* right side social links */}
                 <ul className="ml-auto mr-8 space-y-5 absolute right-8">
